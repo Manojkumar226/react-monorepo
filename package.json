@@ -2,7 +2,12 @@
   "name": "@react-monorepo/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx serve my-portfolio",
+    "build": "nx build my-portfolio",
+    "test": "nx test my-portfolio",
+    "lint": "nx workspace-lint"
+  },
   "private": true,
   "dependencies": {
     "react": "19.0.0",
